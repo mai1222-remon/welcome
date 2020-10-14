@@ -207,12 +207,24 @@ footer .footer-right{
 		min-width: 375px;
 	}
 	/*header*/
-
+	.icon{
+		margin-left: 20px;
+	}
+	.icon .name{
+		display:  none;
+	}
+	.header-right{
+		display: none;
+	}
+    /*headerここまで*/
 	/*welcome*/
+	.title{
+		font-size: 30px;
+	}
 
 	/*curriculum*/
 	.img-box{
-		flex-flow:  column nowrap;
+		flex-flow: column nowrap;
 	}
 	.img-box li{
 		display: flex;
