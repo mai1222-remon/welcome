@@ -170,6 +170,15 @@ header{
 .contact .form{
 	margin: 50px 0 40px;
 }
+.contact button{
+	background-color: #1dace0;
+	color: #fff;
+	border: 3px solid #1dace0;
+	border-radius:  30px;
+	font-size: 24px;
+	padding: 15px 35px;
+	box-shadow: boder-box;
+}
 /*contact ここまで/*>
 
 /*footer*/
@@ -287,7 +296,12 @@ footer .footer-right{
 .form-right{
 	margin-top: 20px;
 }
+.cintact button{
+	font-size: 20px;
+	padding: 5px 40px;
+}
 	/*footer*/
+
 footer{
 	display: flex;
 	justify-content: center;
