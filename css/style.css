@@ -256,8 +256,17 @@ footer .footer-right{
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		margin-right: 0; 
+		margin-right: 0;
+		margin-top: 30px; 
 	}
+	.img-box li:farst-child{
+		margin-top: 0;
+	}
+	.img li span {
+		font-size:16px; 
+		margin-top:30px;
+	}
+
 	/*contact*/
 
 }
