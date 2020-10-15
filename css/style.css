@@ -134,6 +134,7 @@ header{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	padding-top: 50px;
 }
 
 
@@ -174,10 +175,10 @@ header{
 	background-color: #1dace0;
 	color: #fff;
 	border: 3px solid #1dace0;
-	border-radius:  30px;
+	border-radius:  10px;
 	font-size: 24px;
 	padding: 15px 35px;
-	box-shadow: boder-box;
+	box-shadow: border-box;
 }
 /*contact ここまで/*>
 
@@ -206,6 +207,12 @@ footer .footer-right{
 }
 
 /*タブレット用　ここ宿題　*/
+@media screen and (max-width:960px){
+	body{
+		min-width: 850px;
+	}
+
+}
 
 
 /*スマホ用*/
@@ -251,6 +258,7 @@ footer .footer-right{
 		font-weight: bold;
 		border-radius: 10px; 
 	}
+
 	.btn:first-child{
 		margin-top: 0;
 	}
@@ -269,7 +277,9 @@ footer .footer-right{
 	.img-box li:farst-child{
 		margin-top: 0;
 	}
-	.img li span {
+
+
+	.img-box li span {
 		font-size:16px; 
 		margin-top:20px;
 	}
@@ -279,6 +289,7 @@ footer .footer-right{
 	flex-flow: column nowrap;
 	margin: 30px 0;
 }
+
 .form .name,.form .email, .form .inquiry{
 	width: 80%;
 }
@@ -287,7 +298,7 @@ footer .footer-right{
 .form .name,.form .email{
 	height: 30px;
 }
-.from.inquiry{
+.form .inquiry{
 	height: 50px;
 }
 .form-left{
@@ -296,7 +307,7 @@ footer .footer-right{
 .form-right{
 	margin-top: 20px;
 }
-.cintact button{
+.contact button{
 	font-size: 20px;
 	padding: 5px 40px;
 }
