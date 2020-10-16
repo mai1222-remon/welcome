@@ -193,7 +193,7 @@ footer{
 	align-items: center;
 }
 footer .footer-right{
-    margin-right: 80px;
+    margin-right: 80 px;
 }
 /*footer ここまで*/
 
@@ -211,8 +211,120 @@ footer .footer-right{
 	body{
 		min-width: 850px;
 	}
+	.ing{
+		flex: wrap;
+		justify-content: space-around;
+	}
 
+	.ing-box li{
+		margin-top:  30px;
+		margin-right:  0;
+	}
+
+
+.icon{
+		margin-left: 20px;
+	}
+	.icon .name{
+		display:  none;
+	}
+	.header-right{
+		display: none;
+	}
+	/*headerここまで*/
+	/*welcome*/
+	.title{
+		font-size: 30px;
+	}
+	
+	.guideline{
+		margin-top: 30px;
+		font-size: 24px;
+		font-weight: normal;
+	}
+
+	.btn-group{
+		display: flex;
+		flex-flow: column nowrap;
+		align-items: center;
+		margin-top: 40px;
+	}
+	.btn{
+		height: 48px;
+		width: 140px;
+		font-size: 24px;
+		margin-left: 0;
+		margin-top: 20px;
+		font-weight: bold;
+		border-radius: 10px; 
+	}
+
+	.btn:first-child{
+		margin-top: 0;
+	}
+
+	/*curriculum*/
+	.img-box{
+		flex-flow: column nowrap;
+	}
+	.img-box li{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-right: 0;
+		margin-top: 30px; 
+	}
+	.img-box li:farst-child{
+		margin-top: 0;
+	}
+
+
+	.img-box li span {
+		font-size:16px; 
+		margin-top:20px;
+	}
+
+	/*contact*/
+.contact .form{
+	flex-flow: column nowrap;
+	margin: 30px 0;
 }
+
+.form .name,.form .email, .form .inquiry{
+	width: 80%;
+}
+
+
+.form .name,.form .email{
+	height: 30px;
+}
+.form .inquiry{
+	height: 50px;
+}
+.form-left{
+	margin-right: 0; 
+}
+.form-right{
+	margin-top: 20px;
+}
+.contact button{
+	font-size: 20px;
+	padding: 5px 40px;
+}
+	/*footer*/
+
+footer{
+	display: flex;
+	/*justify-content: center*/
+}
+/*footer .icon{
+	display: none;
+}*/
+footer .footer-right{
+	margin-right: 0;
+}	
+	
+
 
 
 /*スマホ用*/
